@@ -155,7 +155,7 @@ objectLayer.objects.forEach((o) => {
 			key: "coin",
 			quantity: 35,
 			setXY: { x: TILE_SIZE * 4, y: 0, stepX: WIDTH / 11 },
-			setScale: { x: 0.100, y: 0.100 },
+			setScale: { x: 0.150, y: 0.150 },
 		});
 
 		this.coins.children.iterate((coin) => {
@@ -189,7 +189,7 @@ objectLayer.objects.forEach((o) => {
 			.setCollideWorldBounds(true)
 			.setBounce(0.2)
 			.setSize(TILE_SIZE * 2, TILE_SIZE * 4.5)
-			.setScale(0.4)
+			.setScale(0.44)
 			.setOffset(TILE_SIZE * 1.7, TILE_SIZE * 2.6);
 
 		// single frame
