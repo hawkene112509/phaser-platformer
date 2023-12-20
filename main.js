@@ -189,7 +189,7 @@ objectLayer.objects.forEach((o) => {
 			.setCollideWorldBounds(true)
 			.setBounce(0.2)
 			.setSize(TILE_SIZE * 2, TILE_SIZE * 4.5)
-			.setScale(1)
+			.setScale(0.4)
 			.setOffset(TILE_SIZE * 1.7, TILE_SIZE * 2.6);
 
 		// single frame
